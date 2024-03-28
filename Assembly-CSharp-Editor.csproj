@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{64fedc61-d45d-b3b2-9c32-770701bd1b42}</ProjectGuid>
+    <ProjectGuid>{0602c61a-c446-a474-9e0a-489f1dbc2e60}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Editor\CreateLocatorHere.cs" />
      <Compile Include="Assets\TouchScript\Editor\Gestures\TransformGestures\Base\TwoPointTransformGestureBaseEditor.cs" />
      <Compile Include="Assets\TouchScript\Editor\Behaviors\Cursors\CursorManagerEditor.cs" />
      <Compile Include="Assets\TouchScript\Editor\Layers\StandardLayerEditor.cs" />
@@ -260,14 +261,14 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="nunit.framework">
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="OSCsharp">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
     </Reference>
     <Reference Include="TUIOsharp">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -615,42 +616,42 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{d1a0e12d-db77-c3c8-5baf-e45c4c5c5c13}</Project>
+      <Project>{9601bd41-4d08-3af1-3bd3-14b89b496b62}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

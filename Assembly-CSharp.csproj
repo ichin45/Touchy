@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{d1a0e12d-db77-c3c8-5baf-e45c4c5c5c13}</ProjectGuid>
+    <ProjectGuid>{9601bd41-4d08-3af1-3bd3-14b89b496b62}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -36,11 +36,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Draw.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Behaviors\Cursors\UI\TextureSwitch.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Behaviors\Cursors\PenCursor.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Gestures\TransformGestures\TransformGesture.cs" />
      <Compile Include="Assets\TouchScript\Examples\Taps\Scripts\Kick.cs" />
-     <Compile Include="Assets\Script\deprecated\touch5.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Utils\EventHandlerExtensions.cs" />
      <Compile Include="Assets\TouchScript\Examples\Photos\Scripts\SetColor.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Devices\Display\IDisplayDevice.cs" />
@@ -51,14 +63,12 @@
      <Compile Include="Assets\TouchScript\Scripts\Utils\TimedSequence.cs" />
      <Compile Include="Assets\TouchScript\Examples\Cube\Scripts\LayerDelegate.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Debugging\Loggers\FileWriterLogger.cs" />
-     <Compile Include="Assets\Script\touch7.cs" />
      <Compile Include="Assets\TouchScript\Scripts\IDebuggable.cs" />
      <Compile Include="Assets\TouchScript\Examples\Colors\Scripts\Colors.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Behaviors\Cursors\ObjectCursor.cs" />
      <Compile Include="Assets\TouchScript\Examples\Multiuser\Scripts\Logo.cs" />
      <Compile Include="Assets\TouchScript\Scripts\IGestureManager.cs" />
      <Compile Include="Assets\TouchScript\Examples\_misc\Scripts\Highlight.cs" />
-     <Compile Include="Assets\Draw.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Gestures\TransformGestures\Base\TwoPointTransformGestureBase.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Gestures\TransformGestures\ITransformGesture.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Pointers\MousePointer.cs" />
@@ -72,7 +82,6 @@
      <Compile Include="Assets\TouchScript\Scripts\Core\TouchManagerInstance.cs" />
      <Compile Include="Assets\TouchScript\Scripts\ITouchManager.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Debugging\Filters\IPointerDataFilter.cs" />
-     <Compile Include="Assets\Script\c#testonly\listen.cs" />
      <Compile Include="Assets\TouchScript\Examples\_misc\Scripts\ExamplesList.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Utils\Geom\TwoD.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Gestures\TransformGestures\Clustered\ClusteredPinnedTransformGesture.cs" />
@@ -84,9 +93,7 @@
      <Compile Include="Assets\TouchScript\Scripts\InputSources\InputHandlers\WindowsPointerHandlers.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Pointers\PenPointer.cs" />
      <Compile Include="Assets\TouchScript\Examples\Checkers\Scripts\Board.cs" />
-     <Compile Include="Assets\Script\touch6.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Behaviors\Cursors\UI\GradientTexture.cs" />
-     <Compile Include="Assets\Script\touch0.cs" />
      <Compile Include="Assets\TouchScript\Scripts\InputSources\ICoordinatesRemapper.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Pointers\TouchPointer.cs" />
      <Compile Include="Assets\TouchScript\Modules\TUIO\Scripts\InputSources\TuioInput.cs" />
@@ -96,12 +103,8 @@
      <Compile Include="Assets\TouchScript\Scripts\GestureManager.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Core\DebuggableMonoBehaviour.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Clusters\Clusters2D.cs" />
-     <Compile Include="Assets\Script\cam0.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Utils\BinaryUtils.cs" />
-     <Compile Include="Assets\Script\prefabBehaviour0.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Hit\HitData.cs" />
-     <Compile Include="Assets\Script\c#testonly\callout.cs" />
-     <Compile Include="Assets\Script\deprecated\touch1.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Layers\TouchLayer.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Gestures\PressGesture.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Utils\Attributes\ToggleLeftAttribute.cs" />
@@ -124,7 +127,6 @@
      <Compile Include="Assets\TouchScript\Examples\Camera\Scripts\CameraController.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Layers\ILayerDelegate.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Gestures\LongPressGesture.cs" />
-     <Compile Include="Assets\Script\deprecated\touch3.cs" />
      <Compile Include="Assets\TouchScript\Scripts\InputSources\StandardInput.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Utils\ClusterUtils.cs" />
      <Compile Include="Assets\TouchScript\Examples\_misc\Scripts\Checker.cs" />
@@ -136,9 +138,7 @@
      <Compile Include="Assets\TouchScript\Scripts\Layers\ProjectionParams.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Pointers\FakePointer.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Devices\Display\GenericDisplayDevice.cs" />
-     <Compile Include="Assets\Script\deprecated\touch2.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Behaviors\Cursors\TouchCursor.cs" />
-     <Compile Include="Assets\Script\button.cs" />
      <Compile Include="Assets\TouchScript\Examples\_misc\Scripts\Runner.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Devices\Display\DisplayDevice.cs" />
      <Compile Include="Assets\TouchScript\Scripts\InputSources\InputHandlers\TouchHandler.cs" />
@@ -157,26 +157,37 @@
      <Compile Include="Assets\TouchScript\Scripts\Pointers\Pointer.cs" />
      <Compile Include="Assets\TouchScript\Scripts\InputSources\InputSource.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Core\GestureManagerInstance.cs" />
-     <Compile Include="Assets\Script\deprecated\touch4.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Layers\UI\TouchScriptInputModule.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Behaviors\Cursors\MouseCursor.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Behaviors\UI\OverHelper.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Gestures\Gesture.cs" />
-     <Compile Include="Assets\Script\c#testonly\list_test.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Gestures\TransformGestures\Base\TransformGestureBase.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Gestures\TapGesture.cs" />
      <Compile Include="Assets\TouchScript\Examples\_misc\Scripts\ShowMe.cs" />
      <Compile Include="Assets\TouchScript\Examples\Portal\Scripts\Spawner.cs" />
      <Compile Include="Assets\TouchScript\Scripts\Gestures\TransformGestures\PinnedTransformGesture.cs" />
      <Compile Include="Assets\TouchScript\Scripts\LayerManager.cs" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\readme.txt" />
      <None Include="Assets\TouchScript\license.txt" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
      <None Include="Assets\TouchScript\Examples\_misc\Shaders\BorderDiffuse.shader" />
      <None Include="Assets\TouchScript\Shaders\DebugNoDepthTest.shader" />
      <None Include="Assets\TouchScript\Shaders\DebugDepthTest.shader" />
      <None Include="Assets\TouchScript\Examples\_misc\Shaders\UnlitColor.shader" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Audio\Voice\unity-chan_voice_list.txt" />
      <None Include="Assets\TouchScript\Shaders\Cursor.shader" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
      <None Include="Assets\TouchScript\Shaders\DebugMultiplyDepthTest.shader" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\Stage\Shader\AlphaMask.shader" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
      <None Include="Assets\TouchScript\Shaders\DebugMultiplyNoDepthTest.shader" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -366,14 +377,14 @@
     <Reference Include="UnityEditor">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="nunit.framework">
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="OSCsharp">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Assets/TouchScript/Modules/TUIO/Libraries/OSCsharp.dll</HintPath>
     </Reference>
     <Reference Include="TUIOsharp">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Assets/TouchScript/Modules/TUIO/Libraries/TUIOsharp.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -721,31 +732,31 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:/XRLab@NTUT/[ Plan ]/2023_NSTC/MultiTouch-main (Ori)/touchy (Ori)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/Users/ichin/Documents/GitHub/TouchyNew/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
